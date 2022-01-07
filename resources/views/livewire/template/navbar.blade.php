@@ -18,11 +18,11 @@
                                 clip-rule="evenodd"></path>
                         </svg>
                     </button>
-                    <a href="https://demo.themesberg.com/windster/"
+                    <a href="/"
                         class="text-xl font-bold flex items-center lg:ml-2.5">
-                        <img src="https://demo.themesberg.com/windster/images/logo.svg" class="h-6 mr-2"
-                            alt="Windster Logo">
-                        <span class="self-center whitespace-nowrap">Decameron</span>
+                        <img src="https://cdn-icons.flaticon.com/png/512/3281/premium/3281312.png?token=exp=1641531924~hmac=4ddaf25a76b1350db3a00d312279bf3b" class="h-6 mr-2 rounded"
+                            alt="Test Logo">
+                        <span class="self-center whitespace-nowrap">Technical Test</span>
                     </a>
                 </div>
                 <div class="flex items-center">
