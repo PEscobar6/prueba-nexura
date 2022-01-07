@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\Index;
+use App\Http\Livewire\Modules\Empleados;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', Index::class);
+Route::get('/', Index::class)->name('index');
+Route::get('/empleados', Empleados::class)->name('empleados');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

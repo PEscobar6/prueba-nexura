@@ -18,7 +18,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://demo.themesberg.com/windster-pro/kanban/" target="_blank"
+                            <a href="{{route('empleados')}}"
                                 class="text-base text-gray-900 font-normal rounded-lg hover:bg-gray-100 flex items-center p-2 group ">
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-6 h-6 text-gray-500 flex-shrink-0 group-hover:text-gray-900 transition duration-75"

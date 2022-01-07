@@ -32,6 +32,7 @@ class DatabaseSeeder extends Seeder
             ['nombre' => 'Amalia Bayona', 'email' => 'abayona@example.co', 'sexo' => 'F', 'area_id' => 6, 'boletin' => 0, 'description' => 'Para contactar a Amalia Bayona, puede escribir al correo electrónico abayona@example.co']
         ]);
 
+        
         Roles::insert([
             ['nombre' => 'Desarrollador'],
             ['nombre' => 'Analista'],
@@ -42,7 +43,7 @@ class DatabaseSeeder extends Seeder
             ['nombre' => 'Auxiliar administrativo'],
             ['nombre' => 'Codirector']
         ]);
-
+        
         EmpleadoRol::insert([
             ['empleado_id' => 1, 'rol_id' => 4],
             ['empleado_id' => 1, 'rol_id' => 7],
@@ -50,5 +51,8 @@ class DatabaseSeeder extends Seeder
             ['empleado_id' => 2, 'rol_id' => 1],
             ['empleado_id' => 2, 'rol_id' => 2]
         ]);
+        
+        Empleados::factory(11)->create();
+        EmpleadoRol::factory(13)->create();
     }
 }
