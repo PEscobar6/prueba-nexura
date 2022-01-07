@@ -41,8 +41,19 @@
     @stack('modals')
 
     @livewireScripts
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{ asset('js/app.bundle.js') }}"></script>
     <script src="{{ asset('js/buttons.js') }}"></script>
+
+    <script>
+        Livewire.on('alert', (title, msg, icon) => {
+            Swal.fire(
+                title,
+                msg,
+                icon
+            )
+        })
+    </script>
 </body>
 
 </html>
